@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  padding: 20px;
+}
+
+/* HEADER */
+.header {
+  width: 100%;
+  display: flex;
+}
+.header-item-1 {
+  width: 30%;
+  height: 10rem;
+  background-color: #0288d1;
+}
+.header-item-2 {
+  width: 70%;
+  height: 10rem;
+  background-color: #bdbdbd;
+  margin-left: 20px;
+}
+
+/* HERO */
+.hero {
+  width: 100%;
+  height: 25rem;
+  background: #757575 ;
+  margin-top: 20px;
+}
+
+/* EVENTS */
+.events {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+.event-item {
+  width: 33.3%;
+  height: 300px;
+  background: #039be5 ;
+}
+
+.middle {
+  margin: 0 20px;
+}
+
+/* FOOTER */
+.footer {
+  width: 100%;
+  height: 15rem;
+  background-color: #9e9e9e;
+  margin-top: 20px;
+}
+
+
+/* Media Query para tablets */
+
+@media screen and (max-width:768px)
+{
+  /* HEADER */
+  .header-item-1 {
+    width: 30%;
+    height: 7rem;
+    background-color: #0288d1;
+  }
+  .header-item-2 {
+    width: 70%;
+    height: 7rem;
+    background-color: bdbdbd;
+    margin-left: 20px;
+  }
+
+  /* HERO */
+  .hero {
+    width: 100%;
+    height: 17em;
+    background: #757575;
+    margin-top: 20px;
+  }
+
+  /* FOOTER */
+  .footer {
+    width: 100%;
+    height: 15rem;
+    background-color: #9e9e9e;
+    margin-top: 20px;
+  }
+
+}
+
+/* Media Query para Telefonos */
+
+@media screen and (max-width: 320px)
+{
+  body {
+    font-size: 16px;
+    padding: 5px;
+  }
+  /* HEADER */
+  .header-item-1 {
+    width: 30%;
+    height: 3rem;
+    background-color: #0288d1;
+  }
+  .header-item-2 {
+    width: 70%;
+    height: 3rem;
+    background-color: bdbdbd;
+    margin-left: 5px;
+
+  }
+
+  /* HERO */
+  .hero {
+    width: 100%;
+    height: 8rem;
+    background: #757575;
+    margin-top: 5px;
+  }
+
+  /* EVENTS */
+  .events {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+  }
+  .event-item {
+    width: 100%;
+    height: 5rem;
+    background: ;
+  }
+  .middle {
+    margin: 5px 0;
+  }
+
+  /* FOOTER */
+  .footer {
+    height: 10rem;
+    margin-top: 5px;
+  }
+}
+
+/* Media Query para 1440 o mas */
+
+@media screen and (min-width:1440px)
+{
+  /* HEADER */
+  .header-item-1 {
+    width: 30%;
+    height: 10rem;
+    background-color: #0288d1;
+  }
+  .header-item-2 {
+    width: 70%;
+    height: 10rem;
+    background-color: bdbdbd;
+    margin-left: 20px;
+  }
+
+  /* HERO */
+  .hero {
+    width: 100%;
+    height: 25em;
+    background: #757575;
+    margin-top: 20px;
+  }
+
+  /* FOOTER */
+  .footer {
+    width: 100%;
+    height: 25rem;
+    background-color: #9e9e9e;
+    margin-top: 20px;
+  }
+
+}
+
